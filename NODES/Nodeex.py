@@ -66,7 +66,7 @@ def add_to_tail(self, new_value):
 
     if self.head_node == None:
       self.head_node = new_tail
-   #remove tail
+   #remove the head
 
 def remove_head(self):
     removed_head = self.head_node
